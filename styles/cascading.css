@@ -1,0 +1,34 @@
+/*Anu Aryal
+03/01/2019
+INFO 2220
+Professor Jonathon Holmes
+Assignment 2
+Objective: This is an assignment of css test page for css html.
+ */
+
+
+
+a:hover {
+    color: #888888;
+}
+
+td:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: cell;
+}
+
+.special {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+    content: """ """;
+}
+
+    .special:before {
+        content: open-quote;
+    }
+
+    .special:after {
+        content: close-quote;
+    }

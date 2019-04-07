@@ -1,0 +1,28 @@
+/*Anu Aryal
+03/29/2019
+INFO 2220
+Professor Jonathon Holmes
+Assignment 8
+Objective: This is a css page for AJAX.
+ */
+
+
+#people {
+    border: 1px solid black;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 8px;
+    margin: .3em;
+}
+
+    #people li {
+        border: 1px solid blue;
+        margin: 5px;
+    }
+
+        #people li span {
+            font-weight: normal;
+            display: block;
+            margin: .3em;
+        }
+

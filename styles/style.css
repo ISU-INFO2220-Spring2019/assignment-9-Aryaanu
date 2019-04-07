@@ -1,0 +1,121 @@
+/*Anu Aryal
+03/01/2019
+INFO 2220
+Professor Jonathon Holmes
+Assignment 2
+Objective: This is an assignment of css test page for creation of style sheet and serves as a practice for html.
+ */
+
+
+
+@import 'cascading.css';
+
+/* body-page is id of Body */
+
+#body-page {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+a {
+    color: #FF8800;
+}
+
+p {
+    padding: 2ex;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+table span {
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #FF8800;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #888888;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+th {
+    background-color: #FF8800;
+    color: #FFFFFF;
+}
+
+tr {
+    font-size: .9em;
+    background-color: #EEEEEE;
+}
+
+/* other is class for tr in table */
+.other {
+    background-color: #DDDDDD
+}
+
+.success {
+    color: #008800;
+    background-color: #F0FFF0;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: .3em;
+    margin: .3em;
+    border-color: #008800;
+}
+
+.warning {
+    color: #888800;
+    background-color: #FFFFF0;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: .3em;
+    margin: .3em;
+    border-color: #888800;
+}
+
+.error {
+    color: #880000;
+    background-color: #FFF0F0;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: .3em;
+    margin: .3em;
+    border-color: #880000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sharing settings
