@@ -1,0 +1,83 @@
+<!--Anu Aryal
+04/10/2019
+INFO 2220
+Professor Jonathon Holmes
+Assignment 9
+Objective: This is a storage page to view for assignments and serves as a practice for html.
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Storage </title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/storage.js"></script>
+</head>
+<body>
+
+    <form>
+        <div id="division1">
+            Username<br>
+            <input id="username" type="text" align="center">
+            <br>
+            Password<br>
+            <input id="password" type="password"><br><br>
+            <input type="checkbox" id="Remember"> Remember Me <br>
+            <input type="submit" class="submit" onclick="login()" value="Login" style="float: right;">
+            <input type="submit" value="Forget Me" onclick="forget()" style="float: right;">
+
+        </div>
+
+        <br>
+
+        <h3 style="text-align:center;">
+            Name
+            <label style="margin-left:50px;">
+                <input type="text" id="name" name="name">
+            </label><br>
+        </h3>
+
+        <h3 style="text-align:center" ;>
+            Phone
+            <label style="margin-left:50px;">
+                <input type="tel" id="phone" name="number">
+            </label><br>
+        </h3>
+
+        <h3 style="text-align:center" ;>
+            Age
+            <label style="margin-left:70px;">
+                <input type="number" id="age" name="age">
+            </label>
+        </h3>
+
+
+
+        <div id="division2">
+            <h3 style="text-align:left;">Group</h3>
+
+            <input type="radio" name="group" checked><label>1</label><br>
+            <input type="radio" name="group">2<br>
+            <input type="radio" name="group">3
+
+        </div><br>
+
+
+        <input type="submit" onclick="addPerson" value="Add Person" style="margin-left: 40%;">
+
+        <input type="submit" value="Clear Storage" ; />
+    </form>
+
+    <br>
+
+    <a href="storage.html"> View Storage</a>
+    <ul id="ulPeople">
+        <li></li>
+    </ul>
+
+    <a href="index.html">Back to Assignment List</a>
+
+</body>
+</html>
